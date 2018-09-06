@@ -1,0 +1,19 @@
+{
+  "name": "twig-include",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loomgmbh/node-twig-include.git"
+  },
+  "author": "LoomZero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loomgmbh/node-twig-include/issues"
+  },
+  "homepage": "https://github.com/loomgmbh/node-twig-include#readme"
+}
