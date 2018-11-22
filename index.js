@@ -15,7 +15,7 @@ module.exports = class TwigInclude {
     };
 
     Twig.functions.modifier = function(name, modifiers) {
-      return 'class="' + name + ' ' + name + '--' + modifiers.join(' ' + name + '--');
+      return 'class="' + name + ' ' + name + '--' + modifiers.join(' ' + name + '--') + '"';
     };
   }
 
