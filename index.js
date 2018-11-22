@@ -13,6 +13,10 @@ module.exports = class TwigInclude {
 
       return sub_template.renderAsync(vars);
     };
+
+    Twig.functions.modifier = function(name, modifiers) {
+      return 'class="' + name + ' ' + name + '--' + modifiers.join(' ' + name + '--');
+    };
   }
 
 }
